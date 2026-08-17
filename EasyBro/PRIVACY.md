@@ -64,4 +64,4 @@ If this policy changes, the updated version will be published here with a new
 
 ## Contact
 
-Questions about privacy in EasyBro can be sent to: _[add your contact email]_
+Questions about privacy in EasyBro can be sent to: **tokkul@gmail.com**

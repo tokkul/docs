@@ -1,5 +1,9 @@
-# EasyBro Docs
+# Docs
 
-Public documentation for **EasyBro**, a simple large-button phone launcher for iOS.
+Public documentation, organised per app.
 
-- [Privacy Policy](PRIVACY.md)
+## EasyBro
+
+- [Overview](EasyBro/README.md)
+- [Support](EasyBro/SUPPORT.md)
+- [Privacy Policy](EasyBro/PRIVACY.md)
