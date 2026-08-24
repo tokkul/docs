@@ -10,28 +10,39 @@ Please include your device model and iOS version.
 
 ## Frequently asked questions
 
-### How do I open Settings?
-**Press and hold the top-right corner of the screen for about 2 seconds.** You
-can also **press and hold the EasyBro app icon** on the Home Screen and choose
-**Settings**.
-
 ### How do I add a contact button?
-In Settings → **Contacts → Add Contact**, pick someone from your address book
-(or type a name and number). You can choose the button's colour right there.
+Open EasyBro, then **press and hold the top-right corner of the screen for about
+2 seconds** to open Settings. Go to **Contacts → Add Contact** and pick someone
+from your address book.
+
+### How do I make a contact a video (FaceTime) call?
+When adding or editing a contact, choose the **Call Method**: **Phone Call** or
+**FaceTime**. FaceTime buttons start a video call to that person instead of a
+regular phone call.
+
+### How do I show a big photo on a contact button?
+When adding or editing a contact that has a photo, turn on **Fill Button with
+Photo**. The whole button becomes the contact's photo with their name across it.
+Use the **Zoom** and **Vertical Position** sliders — with the live preview at the
+top — to frame their face just how you want.
+
+### How do I use EasyBro on my Apple Watch?
+Install the EasyBro watch app from the Watch app on your iPhone. Then, on your
+iPhone, open Settings → **Contacts** and tap **Apple Watch Alarm Button** (at the
+bottom of the list) to choose who the watch should call. The watch shows one big
+button that calls that person with a single tap.
 
 ### How do I add an app or a website button?
 In Settings → **Apps & Links**, turn on the built-in apps you want (Messages,
-Maps, Weather, Mail, and more), or add your own link with **Add Custom App**
+FaceTime, Maps, Mail, and more), or add your own link with **Add Custom App**
 using a URL scheme (for example `spotify:`) or an Apple Shortcut.
 
 ### How do I stop accidental calls?
 In Settings → **General**, turn on **Confirm Before Calling**. EasyBro will ask
 for a confirmation before dialing.
 
-### How do I change a button's color, size, or order?
-- Color, icon, and size: Settings → **Apps & Links**, then tap the button (time
-  and app buttons) — contacts and custom links set their look in their own
-  editor.
+### How do I change the button colors, size, or order?
+- Colors and size: Settings → **Button Appearance**.
 - Order: Settings → **Reorder Buttons**, then drag the buttons.
 
 ### How do I add the Home Screen widgets?
@@ -51,8 +62,9 @@ Settings → **Language**.
 
 ### What about privacy?
 EasyBro keeps your contacts and settings **on your device**. It doesn't collect
-or transmit your personal data. See the [Privacy Policy](PRIVACY.md).
+or transmit your personal data. If you use the Apple Watch button, the chosen
+contact's name and number are sent only to your own paired watch.
 
 ## Version
 
-This page applies to EasyBro 1.2 and later.
+This page applies to EasyBro 1.3 and later.

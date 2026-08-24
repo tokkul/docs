@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **App:** EasyBro
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-24
 
 EasyBro is designed to be a simple, private phone launcher for people who want
 big, easy buttons to call favourite contacts and open apps. Your privacy is
@@ -22,6 +22,15 @@ Everything you set up in EasyBro is stored **only on your device**:
 This information is saved on your device using Apple's standard local storage
 (an App Group), so that the EasyBro app and its Home Screen widget can show the
 same buttons. It is **never uploaded to us or to any third party.**
+
+## Apple Watch
+
+If you use the EasyBro Apple Watch app, you can choose one contact for its big
+call button. Only that contact's **name and phone number** are sent from your
+iPhone to your **own paired Apple Watch**, using Apple's standard on-device
+connection between your phone and watch (WatchConnectivity). This stays between
+your own devices — it is **never sent to us or to any third party** — and the
+watch keeps it in local storage so the button works when your phone is nearby.
 
 ## Contacts permission
 
