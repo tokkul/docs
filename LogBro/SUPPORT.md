@@ -20,6 +20,18 @@ Each note is made of blocks. Type to add paragraphs, and use the toolbar above
 the keyboard to turn a line into a **bullet** or a **checkbox**, or to insert a
 **photo**. Tap a checkbox to mark it done. Your changes save automatically.
 
+### Can I dictate a note instead of typing?
+Yes — using iOS's built-in dictation. Tap into a note block to bring up the
+keyboard, then tap the **microphone key** (bottom row of the keyboard, next to
+the space bar) and start speaking. Your words are typed straight into the block,
+and you can switch back to the keyboard at any time. Speech is transcribed by
+iOS, not by LogBro.
+
+If you don't see the microphone key, enable it in **Settings → General →
+Keyboard → Enable Dictation**. Dictation language follows your keyboard
+language, and you can add more keyboards/languages in the same Keyboard
+settings.
+
 ### How do I add photos or videos?
 Tap the image button in the editor toolbar and pick from your photos. The item
 is copied into the note and synced with it via iCloud.
