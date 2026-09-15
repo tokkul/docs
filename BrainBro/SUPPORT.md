@@ -1,8 +1,9 @@
 # BrainBro — Support
 
-BrainBro is a colour Sudoku you can solve on your own or together with someone
-on the same puzzle. When you get stuck, its teaching hints don't just give the
-answer — they show you *why* the next move works.
+BrainBro is a colourful take on the classic logic-grid puzzle you already know —
+solve it on your own, or together with someone on the same board. When you get
+stuck, its teaching hints don't just give the answer — they show you *why* the
+next move works.
 
 ## Contact
 
@@ -23,7 +24,7 @@ colour from the tray straight onto a cell.
 
 ### Can we play together?
 Yes. Turn on **Two-player mode** in **Settings → Game rules**. Both players work
-the same puzzle as a team — it's about solving together, so there's no "winner".
+the same board as a team — it's about solving together, so there's no "winner".
 
 ### How do the hints work?
 Tap the lightbulb. With **teaching mode** on, a hint is revealed step by step —
@@ -42,7 +43,7 @@ Yes. Use the view menu to switch between **gems, flat colours, numbers, or a
 glow**, and choose a **board style**. Light and dark are both supported.
 
 ### What is the daily streak?
-Solve at least one puzzle a day to build your streak. Miss a day and it resets.
+Solve at least one board a day to build your streak. Miss a day and it resets.
 Your streak also shows as a flame at the top of the screen — tap it (or the best
 time) to open your statistics. Turn on **Daily reminder** in **Settings → Game
 rules** for a once-a-day nudge.
@@ -54,10 +55,10 @@ difficulty, accuracy, and your daily streak.
 
 ### What does "Allow mistakes" do?
 With it off, wrong colours are rejected as you play. With it on, you can place a
-wrong colour and fix it later. Either way, a puzzle counts as solved only when
+wrong colour and fix it later. Either way, a board counts as solved only when
 the whole grid is correct.
 
-### Can I share a puzzle or play one someone sent me?
+### Can I share a board or play one someone sent me?
 Yes. You can save and share a board as a code, and import a code someone sends
 you. Note: a hand-made board with more than one possible solution will still be
 playable, but hints on it are less precise.
@@ -71,7 +72,8 @@ override it in the app's settings.
 
 ### What about privacy?
 BrainBro keeps your games, statistics, and settings **on your device**. It
-doesn't collect or transmit your personal data, and there are no ads.
+doesn't collect or transmit your personal data, and there are no ads. See the
+[Privacy Policy](PRIVACY.md).
 
 ## Version
 
