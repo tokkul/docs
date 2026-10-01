@@ -18,16 +18,15 @@ Everything you create in SecretBro is your content:
   extra fields such as card number, expiry, security code (CVV) and PIN for
   cards; account, routing, IBAN and SWIFT for banks; Wi-Fi network details; and
   passport details.
-- **Secrets** — passwords, pincodes, card numbers, security codes, PINs, and
-  two-factor (TOTP) setup keys.
+- **Secrets** — passwords, pincodes, card numbers, security codes, and PINs.
 
-Your sensitive values (passwords, pincodes, card numbers, security codes, PINs,
-and TOTP keys) are **encrypted on your device** with AES-256-GCM before they are
-ever written to storage or iCloud. The
-encryption key is generated on your device and kept in the Apple **Keychain**;
-it never leaves your devices except through your own iCloud Keychain, and
-SecretBro never sends it to us. Non-secret details (like a login's title or
-website) are stored so lists and search work quickly.
+**Everything you store is encrypted on your device** with AES-256-GCM before it
+is ever written to storage or iCloud — not just passwords, but the title,
+username, website, category and notes too. The encryption key is generated on
+your device and kept in the Apple **Keychain**; it never leaves your devices
+except through your own iCloud Keychain, and SecretBro never sends it to us. When
+you open the app and unlock it, SecretBro decrypts your entries in memory so you
+can browse and search them; nothing searchable is stored in the clear.
 
 Data is stored **on your device** using Apple's standard local storage
 (SwiftData in a shared App Group, so the SecretBro app and its AutoFill

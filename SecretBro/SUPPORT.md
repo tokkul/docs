@@ -1,9 +1,8 @@
 # SecretBro — Support
 
-SecretBro keeps your passwords, pincodes, and two-factor codes safe behind Face
-ID, generates strong passwords, fills logins for you with AutoFill, and shows
-your 2FA codes on your Apple Watch — all encrypted on device and synced across
-your devices with iCloud.
+SecretBro keeps your passwords, pincodes, cards, and other secrets safe behind
+Face ID, generates strong passwords, and fills logins for you with AutoFill —
+everything encrypted on device and synced across your devices with iCloud.
 
 ## Contact
 
@@ -43,16 +42,6 @@ Yes. Turn on **Settings → Hide Secrets**. Passwords, card numbers, security co
 and PINs are then masked until you tap the reveal (eye) button. It's off by
 default, so values show in clear text.
 
-### How do I set up two-factor (2FA) codes?
-When adding or editing a login, paste the **setup key** (a base32 secret) or the
-full **otpauth://** URI into the *Authenticator (2FA)* field. The login's detail
-screen then shows a live 6-digit code with a countdown.
-
-### How do I see codes on my Apple Watch?
-Install the SecretBro watch app from the Watch app on your iPhone. Open SecretBro
-on your iPhone at least once so your encryption key can sync via iCloud Keychain,
-then your logins with a 2FA key will show live codes on your wrist.
-
 ### How do I turn on AutoFill?
 Go to **Settings → General → AutoFill & Passwords**, enable **SecretBro**, and
 make sure it's allowed to fill passwords. Give each login a **website** so iOS
@@ -66,11 +55,10 @@ breach check uses Have I Been Pwned's k-anonymity API and never sends your actua
 password — see the [Privacy Policy](PRIVACY.md).
 
 ### Does SecretBro sync across my devices?
-Yes. SecretBro syncs through **your own iCloud account**, so logins you add on one
-device appear on your others and on your Apple Watch. Your secrets are encrypted
-before they leave the device, and the encryption key syncs through iCloud
-Keychain. Make sure you're signed in to iCloud and that iCloud is enabled for
-SecretBro.
+Yes. SecretBro syncs through **your own iCloud account**, so entries you add on
+one device appear on your others. Everything is encrypted before it leaves the
+device, and the encryption key syncs through iCloud Keychain. Make sure you're
+signed in to iCloud and that iCloud is enabled for SecretBro.
 
 ### Can I import or export my logins?
 Yes. You can **export to a CSV file** and **import from a CSV file** or a
