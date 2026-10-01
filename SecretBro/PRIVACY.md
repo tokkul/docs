@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **App:** SecretBro
-**Last updated:** 2026-09-18
+**Last updated:** 2026-10-01
 
 SecretBro is a password manager designed to keep your secrets yours. Your
 privacy is respected by design: **SecretBro does not collect, transmit, sell, or
@@ -13,11 +13,17 @@ is your own Apple iCloud account, and only if you keep iCloud enabled.
 
 Everything you create in SecretBro is your content:
 
-- **Logins** — titles, usernames, websites, categories, and notes.
-- **Secrets** — passwords, pincodes, and two-factor (TOTP) setup keys.
+- **Entries** — titles, usernames, websites, categories, and notes.
+- **Category details** — depending on the category you choose, an entry can hold
+  extra fields such as card number, expiry, security code (CVV) and PIN for
+  cards; account, routing, IBAN and SWIFT for banks; Wi-Fi network details; and
+  passport details.
+- **Secrets** — passwords, pincodes, card numbers, security codes, PINs, and
+  two-factor (TOTP) setup keys.
 
-Your secrets (passwords, pincodes, and TOTP keys) are **encrypted on your
-device** with AES-256-GCM before they are ever written to storage or iCloud. The
+Your sensitive values (passwords, pincodes, card numbers, security codes, PINs,
+and TOTP keys) are **encrypted on your device** with AES-256-GCM before they are
+ever written to storage or iCloud. The
 encryption key is generated on your device and kept in the Apple **Keychain**;
 it never leaves your devices except through your own iCloud Keychain, and
 SecretBro never sends it to us. Non-secret details (like a login's title or
@@ -72,11 +78,12 @@ internet, and it is designed to protect your privacy using **k-anonymity**:
 
 ## Importing and exporting
 
-SecretBro can export your logins to a CSV file and import logins from a CSV file
-you choose, using the system file picker. **An exported CSV contains your
-passwords in plain text**, so the app warns you before exporting; store the file
-safely and delete it when you're done. These files are read from or written to
-the location **you** pick, and SecretBro does not upload them anywhere.
+SecretBro can export your entries to a CSV file and import entries from a CSV
+file or a **1Password Interchange File (.1pif)** you choose, using the system
+file picker. **An exported CSV contains your passwords, card numbers, PINs and
+other secrets in plain text**, so the app warns you before exporting; store the
+file safely and delete it when you're done. These files are read from or written
+to the location **you** pick, and SecretBro does not upload them anywhere.
 
 ## What SecretBro does NOT do
 

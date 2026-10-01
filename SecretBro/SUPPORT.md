@@ -19,9 +19,15 @@ background, and hides its contents in the app switcher. You can choose how long
 it may stay in the background before requiring Face ID again in **Settings →
 Auto-Lock**.
 
-### How do I add a login?
-Tap **+**, then enter a title, username, website, and the password or pincode.
-You can also add a category and mark favourites. Tap **Save**.
+### How do I add an entry?
+Tap **+**, enter a title, and pick a **category** (Website, Bank, Card, Email,
+Note, Work, WiFi, Passport, or your own). The form then shows the fields that fit
+that category — for example a Card shows card number, cardholder, expiry,
+security code and PIN, while a Website shows username, website and password. Tap
+**Save**. Only a title is required.
+
+To mark a favourite, **swipe an entry to the right** in the list. Favourites are
+pinned to the top, and the list is grouped into collapsible category sections.
 
 ### How do I generate a strong password?
 While adding or editing a login, tap **Generate Strong Password**. SecretBro
@@ -31,6 +37,11 @@ creates a long, random password (avoiding easily-confused characters).
 Open a login and tap the copy button next to the field. For your protection,
 SecretBro asks the system to **clear the clipboard automatically** after about 30
 seconds.
+
+### Can I hide passwords and card numbers until I tap to reveal?
+Yes. Turn on **Settings → Hide Secrets**. Passwords, card numbers, security codes
+and PINs are then masked until you tap the reveal (eye) button. It's off by
+default, so values show in clear text.
 
 ### How do I set up two-factor (2FA) codes?
 When adding or editing a login, paste the **setup key** (a base32 secret) or the
@@ -62,9 +73,16 @@ Keychain. Make sure you're signed in to iCloud and that iCloud is enabled for
 SecretBro.
 
 ### Can I import or export my logins?
-Yes. You can **export to a CSV file** and **import from a CSV file** you choose.
-Note that an exported CSV contains your passwords **in plain text**, so SecretBro
-warns you first — store the file safely and delete it when you're done.
+Yes. You can **export to a CSV file** and **import from a CSV file** or a
+**1Password Interchange File (.1pif)** you choose. On import, SecretBro maps
+1Password logins, cards, bank accounts, Wi-Fi routers, passports, identities and
+memberships to the matching categories; anything it can't map to a field is kept
+in the entry's Notes so nothing is lost. The exported CSV preserves
+category-specific fields so it can be imported back.
+
+Note that an exported CSV contains your passwords, card numbers, PINs and other
+secrets **in plain text**, so SecretBro warns you first — store the file safely
+and delete it when you're done.
 
 ### What happens if I choose "Erase Vault"?
 **Settings → Erase Vault** permanently deletes every login and the encryption
