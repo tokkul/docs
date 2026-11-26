@@ -19,10 +19,14 @@ it automatically after a short moment. The new scan glows briefly at the top
 of the log and your phone gives a short vibration so you know it worked.
 
 ### The label has several codes. How do I pick the right one?
-When more than one code is in view, ScanBro doesn't scan automatically. A list
-of the codes appears at the bottom of the screen with each code's value and
-type. Tap the one you want in the list, or tap the highlighted code directly in
-the camera picture.
+When more than one code is in view, ScanBro doesn't scan automatically. After a
+moment it freezes the picture and stops scanning, so nothing moves while you
+choose. Each code gets a numbered frame in the picture, and the list below has
+the same numbers, along with each code's value and type.
+
+Tap the frames or list rows to select the codes you want. You can select
+**one or more**, or tap **All**. Then tap **Save**. Each selected code is saved
+as its own row in the log. Tap **Scan Again** to start the camera again.
 
 ### A code won't scan. What can I do?
 - Move a little closer, or pinch to zoom in on small codes.
