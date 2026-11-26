@@ -14,6 +14,12 @@ Public documentation, organised per app.
 - [Support](LogBro/SUPPORT.md)
 - [Privacy Policy](LogBro/PRIVACY.md)
 
+## ScanBro
+
+- [Overview](ScanBro/README.md)
+- [Support](ScanBro/SUPPORT.md)
+- [Privacy Policy](ScanBro/PRIVACY.md)
+
 ## SecretBro
 
 - [Overview](SecretBro/README.md)
